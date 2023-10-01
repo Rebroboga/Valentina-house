@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentina Guest House</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__layer">
+          <div class="header__layer-top">
+            <span class="header__adress house">Абхазия, Цандрыпш, ул.Октябрьская, д.492</span>
+            <a class="header__mail mail" href="mailto:booking@valentinahouse.ru">
+              booking@valentinahouse.ru
+            </a>
+            <a class="header__phone phone" href="tel:88622795689">8 (862) 279-56-89</a>
+          </div>
+          <div class="header__layer-bottom">
+            <img src="img/Valentina Guest House.svg" alt="logo">
+            <nav class="nav">
+              <ul class="header__list list-reset">
+                <li class="header__item">
+                  <a href="#" class="header__link main-btn--active">
+                    Главная
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="number-price.html" class="header__link">
+                    Номера и цены
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link">
+                    Статьи
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link">
+                    Информация
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link">
+                    Полный пансион
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__social">
+              <ul class="social__list list-reset">
+                <li class="social__item">
+                  <a href="#">
+                    <img class="social__image" src="img/telegram.svg" alt="telegram">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#">
+                    <img class="social__image" src="img/Whatsapp.svg" alt="whatsapp">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#">
+                    <img class="social__image" src="img/Facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#">
+                    <img class="social__image" src="img/VK.svg" alt="vk">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#">
+                    <img class="social__image instagram" src="img/Instagram.svg" alt="Instagram">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__form">
+              <form class="form" action="#" method="POST">
+                <label class="label">
+                  <span class="label__name">
+                    Дата заезда
+                  </span>
+                  <div class="castom-input calendar">
+                    <input class="label__input label-padding-1" type="date" name="selectedDate" value="2021-04-04"
+                      required>
+                  </div>
+                </label>
+                <label class="label">
+                  <span class="label__name">
+                    Дата выезда
+                  </span>
+                  <div class="castom-input calendar">
+                    <input class="label__input label-padding-2" type="date" name="date off" value="2021-04-06" required>
+                  </div>
+                </label>
+                <label class="label">
+                  <span class="label__name">
+                    Гостей
+                  </span>
+                  <div class="castom-input persona">
+                    <input class="label__input label-padding-3" type="number" name="tourists" min="1" max="10"
+                      placeholder="2" required>
+                  </div>
+                </label>
+                <button class="hero__btn btn btn-reset">
+                  Проверить
+                </button>
+              </form>
+            </div>
+            <img class="hero__vector" src="img/Vector.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="hotel-number">
+        <div class="container">
+          <h2 class="hotel-number__caption caption">
+            Наши номера
+          </h2>
+          <div class="hotel-number__wrapper">
+            <ul class="hotel-number__main-list list-reset">
+              <li class="hotel-number__main-item hotel-bg-1">
+                <div class="hotel-number__text wrap-1">
+                  <h3 class="hotel-number__descr hotel-wrap-1 paragraph">
+                    2-х местный
+                  </h3>
+                  <ul class="hotel-number__list list-reset">
+                    <li class="hotel-number__item">
+                      -Площадь номера: 11&nbsp;м2
+                    </li>
+                    <li class="hotel-number__item">
+                      -1 двуспальная кровать или 2&nbsp;односпальные кровати
+                    </li>
+                    <li class="hotel-number__item">
+                      -Кондиционер
+                    </li>
+                    <li class="hotel-number__item">
+                      -Интернет
+                    </li>
+                    <li class="hotel-number__item">
+                      -Телевизор
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hotel-number__main-item hotel-bg-2">
+                <div class="hotel-number__text wrap-2">
+                  <h3 class="hotel-number__descr hotel-wrap-2 paragraph">
+                    Семейный
+                  </h3>
+                  <ul class="hotel-number__list list-reset">
+                    <li class="hotel-number__item">
+                      -Площадь номера: 18&nbsp;м2
+                    </li>
+                    <li class="hotel-number__item">
+                      -1 двуспальная кровать или 1&nbsp;односпальная кровать
+                    </li>
+                    <li class="hotel-number__item">
+                      -Кондиционер
+                    </li>
+                    <li class="hotel-number__item">
+                      -Интернет
+                    </li>
+                    <li class="hotel-number__item">
+                      -Телевизор
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hotel-number__main-item hotel-bg-3">
+                <div class="hotel-number__text">
+                  <h3 class="hotel-number__descr hotel-wrap-3 paragraph">
+                    Deluxe
+                  </h3>
+                  <ul class="hotel-number__list list-reset">
+                    <li class="hotel-number__item">
+                      -Площадь номера: 30&nbsp;м2
+                    </li>
+                    <li class="hotel-number__item">
+                      -1 двуспальная кровать или 1 раскладной диван
+                    </li>
+                    <li class="hotel-number__item">
+                      -Кондиционер
+                    </li>
+                    <li class="hotel-number__item">
+                      -Интернет
+                    </li>
+                    <li class="hotel-number__item">
+                      -Телевизор
+                    </li>
+                    <li class="hotel-number__item">
+                      -2 комнаты
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="hotel-number__main-item hotel-bg-4">
+                <div class="hotel-number__text">
+                  <h3 class="hotel-number__descr hotel-wrap-4 paragraph">
+                    Deluxe Plus
+                  </h3>
+                  <ul class="hotel-number__list list-reset">
+                    <li class="hotel-number__item">
+                      -Площадь номера: 45&nbsp;м2
+                    </li>
+                    <li class="hotel-number__item">
+                      -2 односпальные кровати, 1 двуспальная кровать, 1 диван
+                    </li>
+                    <li class="hotel-number__item">
+                      -Кондиционер
+                    </li>
+                    <li class="hotel-number__item">
+                      -Интернет
+                    </li>
+                    <li class="hotel-number__item">
+                      -Телевизор
+                    </li>
+                    <li class="hotel-number__item">
+                      -3 комнаты
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="guest">
+        <div class="container">
+          <h3 class="guest__caption caption">
+            <span class="uppercase">Гостевой дом</span> «Valentina Guest House» , Абхазия
+          </h3>
+          <div class="guest__wrapper">
+            <img class="guest__img" src="img/woman.jpg" alt="photo woman">
+            <div class="guest__main-text">
+              <p class="guest__text paragraph">
+                Дорогие гости, <br>
+                Безопасность и&nbsp;комфорт гостей и&nbsp;персонала&nbsp;- это приоритет нашей работы.
+              </p>
+              <p class="guest__text paragraph">
+                Мы&nbsp;круглосуточно следим за&nbsp;тем, что Министерство здравоохранения Российской Федерации,
+                Федеральная служба по&nbsp;надзору в&nbsp;сфере защиты прав потребителей и&nbsp;Всемирная организация
+                здравоохранения сообщают о распространении нового типа коронавируса (COVID-19) и&nbsp;беспрекословно
+                выполняем рекомендации этих организаций и&nbsp;местных органов здравоохранения.
+              </p>
+              <p class="guest__text paragraph">
+                Мы&nbsp;искренне сочувствуем всем, кого коснулось это бедствие и&nbsp;с&nbsp;огромным уважением относимся
+                к&nbsp;врачам, местным сообществам и&nbsp;правительствам, которые задействованы в&nbsp;прямой борьбе
+                с&nbsp;распространением коронавируса.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review">
+        <div class="container">
+          <h2 class="review__caption caption">
+            Отзывы о нас
+          </h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="review__message">
+                  <div class="review__sky">
+                    <p class="review__text paragraph">
+                      Все было прекрасно! Отличный номер, уютный и&nbsp;комфортный; в&nbsp;номере чисто, все в рабочем
+                      состоянии!
+                    </p>
+                    <span class="review__name paragraph">
+                      Vera
+                    </span>
+                  </div>
+                </div>
+                <div class="review__wrap">
+                  <div class="review__avatar">
+                    <img class="avatar" src="img/white-man.svg" alt="persona">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review__message">
+                  <div class="review__sky">
+                    <p class="review__text paragraph">
+                      Очень интерьерное место! Красиво и&nbsp;вкусно. Отличное место в&nbsp;центре города для бранча
+                      с&nbsp;друзьями! Большой выбор десертов, что разбегаются глаза, хочется попробовать все! очень
+                      вкусный шоколадный чизкейк с&nbsp;грецкими орехами! Есть классная детская комната! Однозначно
+                      рекомендую всем и&nbsp;приду еще раз!
+                    </p>
+                    <span class="review__name paragraph">
+                      Bogdan
+                    </span>
+                  </div>
+                </div>
+                <div class="review__wrap">
+                  <div class="review__avatar">
+                    <img class="avatar" src="img/white-man.svg" alt="persona">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review__message">
+                  <div class="review__sky">
+                    <p class="review__text paragraph">
+                      Выражаем благодарность персоналу гостиницы. Хочется отметить, что все очень доброжелательные
+                      и&nbsp;вежливые, поэтому создается атмосфера хорошего отдыха и&nbsp;отличного настроения.
+                      Мы&nbsp;уже дважды здесь побывали, надеемся приехать еще!Огромное Спасибо всем!
+                    </p>
+                    <span class="review__name paragraph">
+                      Anton
+                    </span>
+                  </div>
+                </div>
+                <div class="review__wrap">
+                  <div class="review__avatar">
+                    <img class="avatar" src="img/white-man.svg" alt="persona">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <ul class="footer__main-list list-reset">
+            <li class="footer__main-item">
+              <h3 class="footer__main-caption footer-margin">
+                Геолокация
+              </h3>
+              <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A184ffe6ff77c308008d171394ff3e37a7b7f6b51e0efb62d617f2603613de6c9&amp;width=245&amp;height=173&amp;lang=ru_RU&amp;scroll=true"></script>
+            </li>
+            <li class="footer__main-item">
+              <h3 class="footer__main-caption footer-padding">
+                Контакты
+              </h3>
+              <ul class="footer__contact-list list-reset">
+                <li class="footer__contact-item white-call">
+                  <a class="footer__contact-link" href="tel:88622795689">
+                    8 (862) 279-56-89
+                  </a>
+                </li>
+                <li class="footer__contact-item white-house">
+                  <span class="footer__contact-name">Абхазия, Цандрыпш</span>
+                </li>
+                <li class="footer__contact-item white-geo">
+                  <span class="footer__contact-name">ул.Октябрьская, д.492</span>
+                </li>
+                <li class="footer__contact-item white-mail">
+                  <a class="footer__contact-mail" href="mailto:booking@valentinahouse.ru">
+                    booking@valentinahouse.ru
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__main-item">
+              <h3 class="footer__main-caption">
+                Информация
+              </h3>
+              <ul class="footer__info-list list-reset">
+                <li class="footer__info-item">
+                  Заезд: с 16:00
+                </li>
+                <li class="footer__info-item">
+                  Выезд: до 12:00
+                </li>
+                <li class="footer__info-item">
+                  Бесплатный WI-FI
+                </li>
+                <li class="footer__info-item">
+                  Бесплатная парковка
+                </li>
+                <div class="footer__links">
+                  <li class="footer__info-item">
+                    <a class="footer__info-link" href="#">
+                      О нас
+                    </a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a class="footer__info-link" href="#">
+                      Условия бронирования
+                    </a>
+                  </li>
+                  <li class="footer__info-item">
+                    <a class="footer__info-link" href="#">
+                      Политика конфиденциальности
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </li>
+            <li class="footer__main-item footer-width">
+              <h3 class="footer__main-caption">
+                Погода
+              </h3>
+              <span class="footer__weather">
+                Яндекс.Погода : +17
+              </span>
+              <div class="footer__social">
+                <ul class="footer__social-list list-reset">
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                      <img src="img/white-facebook.svg" alt="facebook">
+                    </a>
+                  </li>
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                      <img src="img/white-vk.svg" alt="vk">
+                    </a>
+                  </li>
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                      <img class="footer__instagram" src="img/white-inst.svg" alt="Instagram">
+                    </a>
+                  </li>
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                      <img src="img/white-telegram.svg" alt="telegram">
+                    </a>
+                  </li>
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                      <img src="img/white-whatsapp.svg" alt="whatsapp">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__year">
+            &copy;&nbsp;2015&ndash;2021&nbsp;&ndash; Valentina guest house
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
